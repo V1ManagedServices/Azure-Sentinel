@@ -47,7 +47,7 @@
         { "name": "entities", "type": "dynamic", "description": "Impacted entities array." },
         { "name": "matchedRules_s", "type": "string" },
         { "name": "matchedRules", "type": "dynamic", "description": "Matched detection rules array." },
-        { "name": "xdrCustomerID_g", "type": "string" },
+        { "name": "xdrCustomerId_g", "type": "string" },
         { "name": "FileName_s", "type": "string", "description": "Extracted file name IOC (populated by parser)." },
         { "name": "FileHashValue_s", "type": "string", "description": "Extracted file hash IOC (SHA1/SHA256/MD5)." },
         { "name": "DomainName_s", "type": "string", "description": "Extracted domain IOC." },

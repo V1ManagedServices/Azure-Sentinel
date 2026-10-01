@@ -53,7 +53,7 @@ FunctionQuery: |
              accountCount_d = any(accountCount_d), emailAddressCount_d = any(emailAddressCount_d),
              indicators_s = any(indicators_s), impactScope_s = any(impactScope_s),
              impactScope_Summary_s = any(impactScope_Summary_s), matchedRules_s = any(matchedRules_s),
-             xdrCustomerID_g = any(xdrCustomerID_g), TenantId = any(TenantId), Type = any(Type),
+             xdrCustomerId_g = any(xdrCustomerId_g), TenantId = any(TenantId), Type = any(Type),
              _ResourceId = any(_ResourceId)
              by workbenchId_s
          | mv-expand entity = entities_array
@@ -90,7 +90,7 @@ FunctionQuery: |
              accountCount_d = any(accountCount_d), emailAddressCount_d = any(emailAddressCount_d),
              indicators_s = any(indicators_s), impactScope_s = any(impactScope_s),
              impactScope_Summary_s = any(impactScope_Summary_s), matchedRules_s = any(matchedRules_s),
-             xdrCustomerID_g = any(xdrCustomerID_g), TenantId = any(TenantId), Type = any(Type),
+             xdrCustomerId_g = any(xdrCustomerId_g), TenantId = any(TenantId), Type = any(Type),
              _ResourceId = any(_ResourceId)
              by workbenchId_s
          | extend
@@ -113,7 +113,7 @@ FunctionQuery: |
              createdTime_t, description_s, impactScope_s, impactScope_Summary_s, indicators_s,
              investigationStatus_s, matchedRules_s, model_s, modelId_g, modelId_s, priorityScore_d,
              severity_s, updatedTime_t, workbenchCompleteTimestamp_t, workbenchId_s, workbenchLink_s,
-             workbenchName_s, xdrCustomerID_g, MailboxPrimaryAddress_s, MalwareName_s,
+             workbenchName_s, xdrCustomerId_g, MailboxPrimaryAddress_s, MalwareName_s,
              schemaVersion_s, alertStatus_s, investigationResult_s, modelType_s, incidentId_s,
              desktopCount_d, serverCount_d, accountCount_d, emailAddressCount_d, Type, TenantId, _ResourceId
         )
